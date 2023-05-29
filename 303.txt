@@ -1,0 +1,23 @@
+Goal of the Project:
+In class 294, we wrote the code to make our four-legged robot to perform different movements like walk, sit and stand. In this project, you will complete the code for walking of the Mantis project.
+Title:-Hexapod robot final
+
+Story:
+Ever since Maya went to the robot exhibition, she has been fascinated with the hexapod robot. The robot needs to walk using its motor and it should have a stable gait.
+
+Specific Tasks to complete the Project:
+Open the controller file for the project and observe the code. We have a method named getY(). If you notice the body of this method, it uses the math.sin() method. When writing code to move a robot, programmers love to use sine waves. This helps to generate a repetitive motion.
+
+
+
+The code to move the first leg is already given, for your convenience. You have to write the code for the other 5 legs.
+For the first leg, the RPC motor moves the leg back and forth. RPF moves it up and down. These two together help the mantis to walk forward.
+
+
+
+There are 3 parameters for the getY() method. Let’s understand each parameter first.
+a - amplitude, how far the mantis’ leg can move will be decided by the amplitude.
+p - the horizontal shift of the leg.
+d - the vertical movement of the leg.
+
+Try different values for a, p, d parameters in the getY() method to understand it properly.
